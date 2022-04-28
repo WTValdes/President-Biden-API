@@ -117,7 +117,7 @@ outlets.forEach(outlet => {
 
 
 app.get('/', (req, res) => {
-    res.json('Welcome to my President Joe Biden News API')
+    res.json('Welcome to my President Joe Biden News API. To retrieve all outlet results, navigate to /news'')
 })
 
 app.get('/news', (req, res) => {
